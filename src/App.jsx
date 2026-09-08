@@ -1,12 +1,13 @@
+import { Navbar } from "./components/Navbar"
 
 
 function App() {
  
 
   return (
-    <>
-      hello
-    </>
+    <main  className="border h-dvh bg-[#030712]">
+      <Navbar />
+    </main>
   )
 }
 
